@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+/*@font-face { font-family: 'TlabShin'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.3/TlabShinYBA1.woff') format('woff'); font-weight: normal; font-style: normal; }*/
+@font-face { font-family: 'DungGeunMo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.mycontainer { width: 960px; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;}
+
+	.navigation_bar {
+
+		width: 100%;
+		height: 70px;
+	}
+
+	.main_header { width: 100%;
+		height: 600px;}
+
+		.myname { display:inline-block;
+			padding-top: 15px;
+			padding-bottom: 10px;
+		}
+
+		h1 { display: inline;
+			font-family: 'DungGeunMo';
+			margin-right:180px;
+		}
+
+		a {	
+			text-decoration: none;
+			color:#ED9595;
+			font-size:15px;
+			margin-right:20px;
+			font-family: 'yg-jalnan';
+		}
+
+		.mymenu{ display:inline-block;	
+			text-align: right;
+
+		}
+
+		.badge:hover{background-color:#ED9595;}
+
+		a:hover { color:#A54D4D;	
+				text-decoration: none;}
+			.img { 
+				position:relative;
+				opacity: 0.8;
+				background-image: url(./image/sohyun1.png);
+				background-size: 100% 600px;
+				width: 100%;
+				height: 100%;
+			}
+
+			form { font-family: 'DungGeunMo'; 
+					padding-top: 160px;
+					text-align: right;
+					}
+
+
+			.btn { background-color: black;
+				   border-width:0; 
+				  }
+			.btn:hover { background-color: red; }
+			.img .content  {
+				position:relative;
+				color: white;
+				font-family: 'Dokdo', cursive;
+
+			}
+
+			.content { text-align: center; 
+				padding-top: 120px;
+				margin:auto;}
+
+
+				h2 { font-size:60px; 
+					text-align:center; }
+
+
+					#content2 { font-size:18px; 
+						text-align: center;
+						margin:auto;}
+
+						section{ width: 100%; padding-top:30px; padding-bottom: 10px;}
+
+						article{
+							display: inline-block;
+							margin-top: 4px;
+							margin-bottom: 1px;
+						}
+/*.myimg { float:left; 
+		 margin: auto;}
+
+.myimg2 { float:left;
+		  margin-left: 20px; }
+
+.myimg3 { float:right;
+	margin: auto; }	*/	  
+
+
+	p { font-family: 'yg-jalnan';
+	font-size:15px;
+	text-align: center; }
+
+	.copyright { 
+		width : 100%;			
+		font-family: 'DungGeunMo'; 
+		font-size:15px;
+		padding-top:30px;
+		padding-bottom: 30px;}
+
+		#likelion { background-color:#ED9595; }
+
+		footer{ width:100%;
+			padding-top: 20px;
+			padding-bottom: 10px;
+		}

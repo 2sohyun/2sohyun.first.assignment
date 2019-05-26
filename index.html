@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- 내가 만든 CSS (lionstyle.css) -->
+	<link href="lionstyle.css" rel="stylesheet" type="text/css">
+	
+	<title> 과제2 bootstrap 소현 ღ'ᴗ'ღ </title>
+</head>
+
+<body>
+
+
+	<!-- 네비게이션바 -->
+	<nav class="navigation_bar">
+		<div class="mycontainer">
+			<div id = "home_section">
+			<div class="myname">
+				<!-- 맨 위 내 이름~~ & ddony 뱃지 (bootstrap - components - badge )-->
+				<h1> Lee So Hyun ღ'ᴗ'ღ <span class="badge badge-danger">ddony</span></h1>
+			</div>
+			<div class="mymenu">
+				<a href="#home_section"> Home </a>
+				<a href="#about_section"> About </a>
+				<a href="#travel_section"> Travel </a>
+				<a href="#likelion_section"> LikeLion </a>
+			</div>
+		</div>
+	</div>
+	</nav>
+
+
+	<!-- header (중앙에 위치한 배경이미지 & 텍스트) -->
+	<header class="main_header">
+		<div id = "about_section">
+		<div class="img">
+			<div class="mycontainer">
+
+
+				<div class="content">
+					<h3><font color="black">소</font>망하는 모든것들이,<br><font color="black">현</font>실에서 이루어지길 - </h3>
+
+					<span id="content2">성공회대학교 글로컬IT학과 201534018 멋쟁이 사자처럼 7기 이소현입니당ღ<br><br>
+					ღ 7기 각오 ღ <br>
+					4학년이지만 아직까지도 코딩에 대한 두려움이 있습니다. 교육 분야를 준비 중이기 때문에<br>
+					부족하지 않은 교육가 되기 위해서 멋사 7기 활동을 통해 최선을 다해 코딩공부에 집중하려고 합니다~!<br>
+					
+
+					<!-- 폼 사용 (bootstrap - Cpmponents - forms) -->
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">좋아하는 여행지는 어디인가요?</label><br>
+							<input type="text" size="14" id="exampleInputEmail1" placeholder="저는 제주도yo!❁´▽`❁"  >
+							
+				
+						
+						<input type="button" value="클릭" class="btn btn-primary" onclick="alert(document.getElementById('exampleInputEmail1').value)"/>
+					</div>
+				</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- 사진 세 장 / 설명 -->
+	<section>
+		<div id = "travel_section">
+		<div class="mycontainer">
+
+			<!-- 여기부분을 article 대신 grid로 !!! (bootstarp - layout - grid)-->
+			<div class="row">
+				<div class="col-sm">
+					<!--<article class="myimg"><img src="image/sohyun2.png" width="310px" height="310px" / > -->
+						<img src="image/sohyun2.png" style="width:100%" / > 
+						<p><font color="#9354ED">Jeju Island</font><br>2017년 여름, 날 좋은 날<br>
+							육지사람의 제주도여행<br>
+							알록달록 더럭분교<br>
+						현실은 휴교 ╬ಠิ﹏ಠิ</p>
+					</div>
+
+					<!--<article class="myimg2"><img src="image/sohyun3.png" width="310px" height="310px"/>-->
+
+						<div class="col-sm">
+							<img src="image/sohyun3.png" style="width:100%" / > 
+							<p><font color="#9354ED">Universal Studios Japan</font> <br>2018 여름, 환상의 나라<br>지구본 사진찍으러 간<br>오사카의 꽃<br>현실은 대기시간 3시간 ಠ_ಠ </p>
+
+						</div>
+
+						<!--<article class="myimg3"><img src="image/sohyun4.png" width="310px" height="310px" />-->
+
+							<div class="col-sm"><img src="image/sohyun4.png" style="width:100%" / > 
+								<p><font color="#9354ED">koreana x phillippina</font><br>2019년 겨울, 필리핀은 여름<br>CUAC Service Learning<br>이쁜 nurse ading<br>현실은 현실자매 ＼(｀0´)／</p>
+							</div>
+						</div>
+					</div>
+
+					</div>
+				</section>
+
+
+				<!-- 저작권 표시 -->
+				<footer>
+					<div class="mycontainer">
+						<div class="copyright">
+							<!-- 이 부분 bootstrap <Input group> 기능 추가 ((bootstrap - components - Input group) -->
+							
+							<div id = "likelion_section">
+								<strong><font color = "red">ღ</font> 내가 만들고 싶은 IT 서비스 소개 <font color = "red">ღ</font></strong><img src="image/likelion.png" width="250px" height="70px"/><BR>
+								인공지능에 대한 관심이 전 세계적으로 높아지면서 딥러닝 기술이 광범위하게 사용되고 있는데, <br>
+								이런 흐름에 발맞출 수 있는 서비스를 만들어보고 싶습니다. <br>
+								또한, 저는 학생이기 때문에 학생을 중심층으로 한 아이디어를 주로 제시했었고<br>
+								3학년 때 java를 이용하여 영어 공부를 중심 주제로 한 학습게임을 만드는 프로젝트를 진행하다가 <br> 개인적인 사정으로 중도휴학을 하게 되었는데 이 프로젝트를 완성하지 못한 점이 아쉬움으로 남았습니다.<br>
+								그 후에 전혀 다른 주제의 프로젝트를 진행하게 되어서 <br>
+								앞으로 도전해 볼 프로젝트 중에선 학생들에게 실용적인 '학습' 관련 서비스를 만들어보고 싶습니다. 
+
+							</div>
+							<br><br>
+							<!-- 요기부터 Loading spinner 색깔별로 (bootstrap - components - spinner)-->
+							<div class="spinner-grow text-primary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-secondary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-success" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-danger" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-warning" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-info" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-light" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+
+
+							
+							<!-- 저작권 표시 & 오버액션토끼 gif -->
+							<span id="likelion"><strong>Copyright &copy; LikeLion 글로컬IT학과 이소현 , 2019 </strong></span>
+							<span id="likelionimg"><img src="image/mygif.gif" width="150" height="100" /></span>
+
+						</div>
+					</div> 
+				</footer>
+
+				<!-- Optional JavaScript -->
+				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+			</body>
+			</html>
